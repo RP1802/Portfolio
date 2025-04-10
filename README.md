@@ -1,65 +1,94 @@
-# 👋 Hi there, I'm Ritesh Patil!
+<!DOCTYPE html>
+<html lang="en">
 
-🎯 Passionate **Data Analyst / Data Scientist** who turns data into actionable insights and builds predictive models that drive real-world decisions.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
----
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <nav>
+      <div class="logo">YourName</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="Firstname-Lastname-Resume.pdf" download>Resume</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+    </nav>
+  </header>
 
-## 👨‍💻 About Me
+  <!-- Hero / About Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="your-photo.jpg" alt="Your Name" class="profile-pic" />
+      <div>
+        <h1>Your Name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nunc nec enim pulvinar varius.</p>
+        <a href="Firstname-Lastname-Resume.pdf" download class="btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
 
-- 🔍 Data storyteller with a love for data wrangling, visualization, and machine learning.
-- 📊 Skilled in **data analysis**, **data visualization**, **statistics**, and **predictive modeling**.
-- 🧠 Continuously learning about new tools, algorithms, and technologies.
-- 🎓 Background in Mechanical Engineering from Savitribai University Pune.
+  <!-- Skills / Tech Stack -->
+  <section id="skills" class="skills-section">
+    <h2>Tech Stack & Tools</h2>
+    <div class="skills-grid">
+      <img src="html-logo.png" alt="HTML" />
+      <img src="css-logo.png" alt="CSS" />
+      <img src="js-logo.png" alt="JavaScript" />
+      <img src="react-logo.png" alt="React" />
+      <img src="vs-code-logo.png" alt="VS Code" />
+      <img src="git-logo.png" alt="Git" />
+    </div>
+  </section>
 
----
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <!-- Repeat for each project -->
+      <div class="project-card">
+        <img src="project-image.jpg" alt="Project 1" />
+        <h3>Project Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="tech-tags">HTML | CSS | JavaScript</div>
+        <div class="project-links">
+          <a href="https://github.com/yourname/project" target="_blank">GitHub</a>
+          <a href="https://yourproject.live" target="_blank">Live</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-## 🧰 Tech Stack
+  <!-- GitHub Stats Section -->
+  <section class="github-section">
+    <h2>GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+    <img src="https://ghchart.rshah.org/yourusername" alt="GitHub Calendar" />
+  </section>
 
-**Languages / Softwares:**  
-`Python` | `R` | `SQL` |  `Excel` |  
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@example.com</p>
+    <p>Phone: +1234567890</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </section>
 
-**Data Analysis & Visualization:**  
-`Pandas` | `NumPy` | `Matplotlib` | `Seaborn` | `Plotly` | `Tableau` | `Power BI`  
+  <script src="script.js"></script>
+</body>
 
-**Machine Learning & AI:**  
-`scikit-learn` | `XGBoost` | `LightGBM` | `TensorFlow` | `Keras`  
-
-**Data Engineering & Databases:**  
-`SQL` | `MongoDB` | `PostgreSQL` | `Snowflake` | `Airflow`  
-
-**Tools:**  
-`Jupyter Notebooks` | `Git` | `VS Code` | `Docker` | `Google Colab`
-
----
-
-## 📂 Featured Projects
-
-### 🔹 [Project Name](Link-to-Repo)
-**Description**: Brief summary of what it does, dataset used, and insights gained.  
-**Tools**: Python, Pandas, Scikit-learn
-
-### 🔹 [Project Name](Link-to-Repo)
-**Description**: Forecasting / classification / NLP / dashboarding project.  
-**Tools**: Tableau, SQL, Power BI, etc.
-
-> Check out more in the **Pinned Repositories** section!
-
----
-
-## 📈 GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&hide_title=true&theme=default)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=default)
-
----
-
-## 📫 Let’s Connect!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/(https://www.linkedin.com/in/ritesh-patil-963042227/))  
-[![Portfolio](https://img.shields.io/badge/Portfolio-grey?style=for-the-badge&logo=google-chrome)](https://(https://github.com/RP1802/Portfolio).com)  
-[![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail)](mailto:riteshpatil1802@gmail.com)
-
----
-
-🧠 *“Without data, you’re just another person with an opinion.”* – W. Edwards Deming  
+</html>
