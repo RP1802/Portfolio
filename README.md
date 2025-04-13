@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Portfolio</title>
+  Ritesh Patil | Portfolio
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
@@ -32,7 +32,7 @@
     <div class="hero-content">
       <img src="your-photo.jpg" alt="Your Name" class="profile-pic" />
       <div>
-        <h1>Your Name</h1>
+        <h1>Ritesh Patil</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed nunc nec enim pulvinar varius.</p>
         <a href="Firstname-Lastname-Resume.pdf" download class="btn">Download Resume</a>
       </div>
@@ -80,8 +80,8 @@
   <!-- Contact Section -->
   <section id="contact" class="contact-section">
     <h2>Contact Me</h2>
-    <p>Email: yourname@example.com</p>
-    <p>Phone: +1234567890</p>
+    <p>Email: riteshpatil1802@gmail.com</p>
+    <p>Phone: 9172120154</p>
     <div class="social-links">
       <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
       <a href="https://github.com/yourusername" target="_blank">GitHub</a>
